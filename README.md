@@ -1,7 +1,7 @@
 # Favorites management
 
 Using channels response from `channels.json` implement favorites management UI
-similar to [example](https://zattoo-abox-staging.zattoo.com/settings/favorites?login=00003322&password=12345).
+similar to example
 
 ## Requirements
 
