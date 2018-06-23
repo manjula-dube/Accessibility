@@ -1,0 +1,1 @@
+export const channelData = 'https://www.jasonbase.com/things/MEo5.json'
