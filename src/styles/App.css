@@ -1,0 +1,138 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+
+.section1 {
+    position: fixed;
+    width: 35%;
+    overflow-y: scroll;
+    border-right: 2px solid #373737;
+    max-height: 660px;
+    padding-bottom: 10px;
+}
+
+.section2 {
+    float: right;
+    width: 63%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 26, 26, 0.98);
+    padding-top: 20px;
+    color: #fff;
+    overflow-y: scroll;
+}
+
+.header-sec2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.64rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 1.33rem;
+}
+
+.header-sec1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.64rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 1.33rem;
+}
+
+.width30margin {
+    width: 30%;
+    margin: 2px;
+}
+
+.width45margin {
+    width: 45%;
+    margin-left: 50px;
+}
+
+._sort {
+    font-size: 24px;
+}
+
+.channel {
+    height: 5.5rem;
+    line-height: 5.67rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0.1rem;
+    background-color: #232323;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 6rem;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.active {
+    outline: 0.1rem solid hsla(0, 0%, 100%, 0.8);
+    background-color: #373737;
+    z-index: 1;
+    -webkit-box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    margin-left: 130px;
+    color: #ebebeb;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.image-logo {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-height: 3.33rem;
+    left: 80px;
+}
+
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('[project-root]/fonts/pacifico/Pacifico-webfont.eot');
+    src: url('[project-root]/fonts/pacifico/Pacifico-webfont.eot?#iefix') format('eot'), url('[project-root]/fonts/pacifico/Pacifico-webfont.woff') format('woff'), url('[project-root]/fonts/pacifico/Pacifico-webfont.ttf') format('truetype'), url('[project-root]/fonts/pacifico/Pacifico-webfont.svg') format('svg');
+}
+
+.channel::after {
+    content: '☆';
+    position: absolute;
+    top: 50%;
+    right: 2.5rem;
+    font-size: 1.8rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #ebebeb;
+}
+
+.channel-favourite::after {
+    content: '\2605';
+}
